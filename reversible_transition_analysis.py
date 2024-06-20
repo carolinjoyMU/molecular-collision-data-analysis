@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read the data file and parse the contents
-f = open('CS_op_J0_U41_alltrans_final.DAT', "r")
+f = open('CS_op_J0_U170_alltrans_final.DAT', "r")
 lines = f.readlines()
 df_list = []
 lineN = []
