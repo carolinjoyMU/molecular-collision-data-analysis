@@ -3,7 +3,7 @@ This repository contains tools and scripts for processing and analyzing data fro
 This Python script analyzes cross-section data obtained from MQCT calculations, identifies reversible transitions, and visualizes the reversibility of these transitions.
 
 ## Features
-- Reads and parses cross-section data from “CROSS_SECTIONS.out”
+- Reads and parses cross-section data from “CS_op_J0_U170_all_trans_final.DAT”
 - Processes user input data from 'UIP_op.DAT'
 - Calculates various parameters including energy differences and angular momentum changes
 - Identifies reversible transitions
@@ -15,7 +15,7 @@ This Python script analyzes cross-section data obtained from MQCT calculations, 
 - matplotlib
 
 ## Usage
-1. Ensure that the input files 'CS_op_J0_U41_alltrans_final.DAT' and 'UIP_op.DAT' are in the same directory as the script.
+1. Ensure that the input files 'CS_op_J0_U170_all_trans_final.DAT' and 'UIP_op.DAT' are in the same directory as the script.
 2. Run the script: python reversible_transition_analysis.py
 3. The script will generate an Excel file  rev_transitions.xlsx' in the 'Rev_trans_excel’ directory.
 4. A scatter plot will be displayed showing the reversibility of transitions for different ΔJ2 values.
